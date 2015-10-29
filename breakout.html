@@ -2,21 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheets/breakout.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <title>Breakout by Leah Drake</title>
   </head>
   <body>
   <script src="./lib/library.js"></script>
 
-    <h3>Breakout</h3>
+    <h3>Is this a game for ants? It needs to be at least three times bigger than this!</h3>
+    <button id="runButton" class="getstartedbutton">Start the game</button>
+    <br>
     <canvas width="400" height="400" id="canvas"></canvas>
-    <button id="runButton" />
+    <img src="public/zoolander.jpg" />
     <script>
       var canvas = document.getElementById('canvas');
       var ctx = canvas.getContext('2d');
-      Breakout.init();
-
-      // $("#runButton").click(Breakout.init);
+      $("#runButton").click(Breakout.init);
     </script>
   </body>
 </html>
