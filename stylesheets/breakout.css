@@ -1,5 +1,4 @@
 h3 {
-  color: hotpink;
 }
 
 canvas {
@@ -7,15 +6,15 @@ canvas {
 }
 
 img {
-  display: inline;
-  max-height: 400px;
+  /*display: inline;
+  max-height: 400px;*/
 }
 
 .getstartedbutton {
-  width: 100px;
+  /*width: 100px;
   height: 40px;
   border-radius: 5px;
-  background-color: hotpink;
+  background-color: hotpink;*/
 }
 
 .hidegamescreen {
