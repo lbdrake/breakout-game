@@ -17,5 +17,21 @@ img {
   background-color: hotpink;*/
 }
 
-.hidegamescreen {
+div.jumbotron {
+  background-image: url("../public/zoolanderschool.jpg");
+  background-repeat: no-repeat;
+  /*background-position: left top;*/
+  background-size: 110%;
+  background-color: white;
+  margin-top: 50px;
+}
+
+div.jumbotron h1 {
+  font-size: 2.5em;
+  /*color: #00FF00;*/
+  color: black;
+}
+
+.smaller-text {
+  font-size: .75em;
 }
