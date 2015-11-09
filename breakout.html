@@ -12,7 +12,7 @@
 
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-    <title>Breakout by Leah Drake</title>
+    <title>Mario's Breakout by Leah Drake</title>
   </head>
   <body>
     <script src="./lib/library.js"></script>
@@ -20,7 +20,7 @@
     <canvas id="canvas"></canvas>
     </div>
     <!-- <h1>PacBreaker</h1> -->
-    <button id="runButton" class="btn btn-lg btn-primary">PLAY GAME</button>
+    <!-- <button id="runButton" class="btn btn-lg btn-primary">PLAY GAME</button> -->
 
     <script>
       var canvas = document.getElementById('canvas');
@@ -28,7 +28,7 @@
       canvas.width = window.innerWidth * .6;
       canvas.height = window.innerHeight * .6;
 
-      $("#runButton").click(Breakout.init);
+      Breakout.init();
     </script>
   </body>
 </html>
