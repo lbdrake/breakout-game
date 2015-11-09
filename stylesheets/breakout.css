@@ -1,8 +1,16 @@
+body {
+  background-color: black;
+}
+
 h3 {
+}
+.canvas-container {
+   text-align:center;
+   margin-top: 5%;
 }
 
 canvas {
-
+   display: inline;
 }
 
 img {

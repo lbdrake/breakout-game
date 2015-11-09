@@ -15,28 +15,18 @@
     <title>Breakout by Leah Drake</title>
   </head>
   <body>
-  <script src="./lib/library.js"></script>
-
-
-<!-- <div class="container">
-  <div class="jumbotron">
-    <div class="row">
-      <div class="col-md-3 well ">
-        <p>It needs to be at least three times bigger than this!</p> -->
-      <canvas id="canvas"></canvas>
-      <h1>PacBreaker</h1>
-      <button id="runButton" class="btn btn-lg btn-primary">PLAY GAME</button>
-      <!-- <img src="public/zoolander.jpg" height="400" /> -->
-    <!-- </div>
-    <div class="col-md-4"> -->
-    <!-- </div>
+    <script src="./lib/library.js"></script>
+    <div class="canvas-container">
+    <canvas id="canvas"></canvas>
     </div>
-  </div> -->
+    <!-- <h1>PacBreaker</h1> -->
+    <button id="runButton" class="btn btn-lg btn-primary">PLAY GAME</button>
+
     <script>
       var canvas = document.getElementById('canvas');
       var ctx = canvas.getContext('2d');
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      canvas.width = window.innerWidth * .6;
+      canvas.height = window.innerHeight * .6;
 
       $("#runButton").click(Breakout.init);
     </script>
