@@ -23,18 +23,21 @@
     <div class="row">
       <div class="col-md-3 well ">
         <p>It needs to be at least three times bigger than this!</p> -->
+      <canvas id="canvas"></canvas>
       <h1>PacBreaker</h1>
       <button id="runButton" class="btn btn-lg btn-primary">PLAY GAME</button>
       <!-- <img src="public/zoolander.jpg" height="400" /> -->
     <!-- </div>
     <div class="col-md-4"> -->
-      <canvas width="350" height="350" id="canvas"></canvas>
     <!-- </div>
     </div>
   </div> -->
     <script>
       var canvas = document.getElementById('canvas');
       var ctx = canvas.getContext('2d');
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
       $("#runButton").click(Breakout.init);
     </script>
   </body>
